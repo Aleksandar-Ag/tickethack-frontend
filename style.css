@@ -1,7 +1,10 @@
 body {
   background-image: url(../../capsule/lacapsule-fullstack-js/week4/tickethack/images/background.jpg);
-  background-image: 100%;
+  background-position: center ;
+  background-size: cover;
   text-align: center;
+  height: 100vh;
+  width: 100%;
   margin: 0%;
 }
 
@@ -13,16 +16,29 @@ body {
   width: 100%;
 }
 
-#ticketHack {
-  color: aqua;
+.ticketHack {
+  color: mediumaquamarine;
   font-size: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 #resa {
   display: flex;
   justify-content: flex-end;
+  color: black;
+}
+#p-ticket {
+  font-weight: bolder;
+}
+
+#p-cart {
+  margin: 3px;
+}
+#p-booking {
+  margin: 3px;
+  margin-right: 10px;
 }
 
 .titre {

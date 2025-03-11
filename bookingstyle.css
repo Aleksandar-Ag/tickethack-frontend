@@ -1,0 +1,41 @@
+body {
+  background-color: #f1f0f0;
+  margin: 0;
+}
+.head {
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.ticketHack {
+  color: aqua;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#resa {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+}
+#p-cart {
+  margin: 3px;
+}
+#p-booking {
+  margin: 3px;
+  margin-right: 10px;
+}
+
+#booking {
+  background-color: white;
+  justify-content: center;
+  margin: 175px;
+  padding: 50px;
+  height: 50px;
+  text-align: center;
+}
