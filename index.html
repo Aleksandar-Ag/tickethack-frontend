@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header id="head">
-<div class="home"></div>
-<div class="resa"></div>
-    </header>
-<h1></h1>
-<h3></h3>
-<div id="corps-gauche">
-    <div id=""></div>
-</div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div id="ticketHack">
+        <p id="tickethack">Tickethack</p>
+        <div id="resa">
+          <p>Cart</p>
 
-<script src="script.js"></script>
-</body>
+          <p>Bookings</p>
+        </div>
+      </div>
+    </header>
+    <div class="titre">
+      <h1>Explore the world effortlessly by train!</h1>
+      <h3>
+        Compare, book and enjoy cheap prices for train tickets:your journey
+        starts on TicketHack
+      </h3>
+    </div>
+    <div id="container">
+      <div id="corps-gauche">
+        <div class="time">
+          <input type="text" placeholder="Departure" / id="depart">
+          <div class="time">
+            <input type="text" placeholder="Arrival" / id="arrival">
+          </div>
+        </div>
+        <div class="date"><input type="date" / id="date"></div>
+        <div class="search">
+          <button id="search">Search</button>
+        </div>
+      </div>
+      <div id="corps-droit">
+        <img
+          src="../../capsule/lacapsule-fullstack-js/week4/tickethack/images/train.png"
+          alt=""
+        />
+        <hr id="hr" />
+        <p id="p-droit">It's time to book your future trip.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

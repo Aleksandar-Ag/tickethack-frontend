@@ -1,0 +1,82 @@
+body {
+  background-image: url(../../capsule/lacapsule-fullstack-js/week4/tickethack/images/background.jpg);
+  background-image: 100%;
+  text-align: center;
+  margin: 0%;
+}
+
+.head {
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+}
+
+#ticketHack {
+  color: aqua;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#resa {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titre {
+  color: white;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#corps-gauche {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.time {
+  opacity: 4;
+}
+#depart {
+  height: 30px;
+  width: 25em;
+  background-color: #f1f0f0;
+}
+
+#arrival {
+  height: 30px;
+  width: 25em;
+  background-color: #f1f0f0;
+}
+#date {
+  margin-top: 50px;
+  width: 25em;
+  height: 30px;
+  background-color: #f1f0f0;
+  opacity: 0.5;
+}
+#search {
+  margin-top: 175px;
+  height: 30px;
+  width: 25em;
+  background-color: mediumaquamarine;
+}
+#corps-droit {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+#p-droit {
+  font-size: 20px;
+}
+
+hr {
+  color: mediumaquamarine;
+}
